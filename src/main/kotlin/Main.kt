@@ -5,7 +5,6 @@ fun main() {
 
     var text=string("happy","halloween","day")
     println(text.contentToString())
-
 }
 fun create() {
     var array= arrayOf("year","month","day")
@@ -23,7 +22,7 @@ fun arith(){
     var index=numbers.indexOf(158)
     println(index)
     var order=numbers.sortedArray()
-    println(order.toString())
+    println(order.contentToString())
 }
 fun string(name:String,name1:String, name2:String):Array<String>{
    var stmt= arrayOf<String>("$name, $name1 ,$name2")
